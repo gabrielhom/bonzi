@@ -11,4 +11,6 @@ set F=%WINDIR%\Microsoft.NET\Framework64\v4.0.30319
   /resource:assets\1.mp3,1.mp3 /resource:assets\2.mp3,2.mp3 /resource:assets\3.mp3,3.mp3 /resource:assets\4.mp3,4.mp3 ^
   /resource:assets\5.mp3,5.mp3 /resource:assets\6.mp3,6.mp3 /resource:assets\7.mp3,7.mp3 ^
   Bonzi.cs
+set ERRO=%ERRORLEVEL%
 popd
+exit /b %ERRO%
